@@ -6,4 +6,14 @@
 		<property name="name" value="yinzifan" />
 	</bean>
 
+	<!-- Spring 依赖注入 -->
+	<bean id="OutputHelper"
+		class="com.yinzifan.liandisys._0918_spring02.Solution03_SpringDI_Helper">
+		<property name="outputGenerator" ref="CsvOutputGenerator" />
+	</bean>
+
+	<bean id="CsvOutputGenerator"
+		class="com.yinzifan.liandisys._0918_spring02.CsvOutputGenerator" />
+	<bean id="JsonOutputGenerator"
+		class="com.yinzifan.liandisys._0918_spring02.JsonOutputGenerator" />
 </beans>

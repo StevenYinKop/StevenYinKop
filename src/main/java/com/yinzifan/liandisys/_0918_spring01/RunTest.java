@@ -7,6 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 /**
  * @author yinzf2
  * 2017/09/18	13:54:52
+ * http://www.yiibai.com/spring/spring-3-hello-world-example.html
  */
 public class RunTest {
 	@Test

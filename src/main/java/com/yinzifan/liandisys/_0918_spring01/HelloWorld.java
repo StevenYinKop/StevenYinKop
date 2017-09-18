@@ -4,6 +4,7 @@ package com.yinzifan.liandisys._0918_spring01;
  * @author yinzf2
  * 2017/09/18	13:51:31
  * Spring bean
+ * http://www.yiibai.com/spring/spring-3-hello-world-example.html
  */
 public class HelloWorld {
 	private String name;
