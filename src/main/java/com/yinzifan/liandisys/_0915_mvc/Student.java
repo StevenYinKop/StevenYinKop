@@ -1,4 +1,4 @@
-package com.yinzifan.liandisys.learningmvc;
+package com.yinzifan.liandisys._0915_mvc;
 
 public class Student {
 	private String  rollNo;

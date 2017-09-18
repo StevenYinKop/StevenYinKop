@@ -1,5 +1,4 @@
-package com.yinzifan.liandisys._0912bean;
-
+package com.yinzifan.liandisys._0912_bean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -1,4 +1,4 @@
-package com.yinzifan.liandisys._0912bean;
+package com.yinzifan.liandisys._0912_bean;
 
 public class SgtPeppers implements CompactDisc {
 

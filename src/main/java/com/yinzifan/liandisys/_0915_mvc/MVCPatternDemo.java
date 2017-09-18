@@ -1,4 +1,4 @@
-package com.yinzifan.liandisys.learningmvc;
+package com.yinzifan.liandisys._0915_mvc;
 public class MVCPatternDemo {
 	public static void main(String[] args) {
 		// fetch student record based on his roll no from the database

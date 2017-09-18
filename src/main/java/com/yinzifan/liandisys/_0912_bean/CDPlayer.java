@@ -1,4 +1,4 @@
-package com.yinzifan.liandisys._0912bean;
+package com.yinzifan.liandisys._0912_bean;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class CDPlayer implements MediaPlayer {
