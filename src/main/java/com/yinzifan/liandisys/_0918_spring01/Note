@@ -1,0 +1,2 @@
+Spring配置文件放置在src/main/config下.
+直接使用ClassPathXmlApplicationContext("applicationContext.xml")可以获取到.
