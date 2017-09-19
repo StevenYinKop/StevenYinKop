@@ -1,3 +1,12 @@
+建表语句:CREATE TABLE `customer` (
+  `CUST_ID` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `NAME` varchar(100) NOT NULL,
+  `AGE` int(10) unsigned NOT NULL,
+  PRIMARY KEY (`CUST_ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+
+
+
 1. 测试时寻找的配置文件是src/test/resources下的配置文件,放在src/main/resources下无效.
 2. 如果不是建立的maven工程,要手动将src/test/resources,src/main/resources,src/main/java,src/test/java.加在为资源文件夹(Use as Source Folder)
 3. jdbc导入要注意时区,在配置的jdbc链接后面加上参数'?serverTimezone=UTC'.

@@ -14,7 +14,7 @@ import com.yinzifan.liandisys._0918_spring03_JDBCDemo.dao.CustomerDAO;
 public class SpringJDBCTemplateTest {
 	@Test
 	public void testSpringJDBCTemplate() throws Exception {
-		ApplicationContext ac = new ClassPathXmlApplicationContext("Spring-Customer2.xml");
+		ApplicationContext ac = new ClassPathXmlApplicationContext("_0918_spring04_ApplicationContext.xml");
 
 		CustomerDAO dao = (CustomerDAO) ac.getBean("customerDAO");
 		Customer customer = dao.findByCustomerId(1);

@@ -1,12 +1,5 @@
 package com.yinzifan.liandisys._0918_Spring04_JdbcTemplate;
 
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Set;
-
-import javax.sql.RowSet;
-
 import org.springframework.jdbc.core.support.JdbcDaoSupport;
 import org.springframework.jdbc.support.rowset.SqlRowSet;
 
@@ -18,10 +11,8 @@ import com.yinzifan.liandisys._0918_spring03_JDBCDemo.dao.CustomerDAO;
  * 2017/09/18	16:44:38
  */
 public class CustomerDAOImpl extends JdbcDaoSupport implements CustomerDAO {
-
 	/*
 	 * (non-Javadoc)
-	 * 
 	 * @see
 	 * com.yinzifan.liandisys._0918_spring03_JDBCDemo.dao.CustomerDAO#insert(com.
 	 * yinzifan.liandisys._0918_spring03_JDBCDemo.bean.Customer)
@@ -32,10 +23,8 @@ public class CustomerDAOImpl extends JdbcDaoSupport implements CustomerDAO {
 		String sql = "INSERT INTO CUSTOMER " + "(CUST_ID, NAME, AGE) VALUES (?, ?, ?)";
 		getJdbcTemplate().update(sql, new Object[] { customer.getCustId(), customer.getName(), customer.getAge() });
 	}
-
 	/*
 	 * (non-Javadoc)
-	 * 
 	 * @see com.yinzifan.liandisys._0918_spring03_JDBCDemo.dao.CustomerDAO#
 	 * findByCustomerId(int)
 	 */
@@ -49,5 +38,4 @@ public class CustomerDAOImpl extends JdbcDaoSupport implements CustomerDAO {
 		}
 		return customer;
 	}
-
 }

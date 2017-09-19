@@ -2,8 +2,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
-
-	<import resource="Spring-Datasource.xml" />
-	<import resource="Spring-Customer.xml" />
+	<import resource="dataSourceConfig.xml" />
+	<bean id="customerDAO"
+		class="com.yinzifan.liandisys._0918_spring03_JDBCDemo.dao.impl.CustomerDAOImpl">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
 
 </beans>
