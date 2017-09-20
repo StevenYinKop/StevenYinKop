@@ -1,0 +1,11 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<import resource="dataSourceConfig.xml" />
+	<bean id="DepartmentDAO"
+		class="com.yinzifan.liandisys._0920_SpringFinal_JdbcDemo.dao.impl.DepartmentDAOImpl">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+</beans>
