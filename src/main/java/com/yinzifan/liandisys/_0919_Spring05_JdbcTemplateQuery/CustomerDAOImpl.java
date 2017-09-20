@@ -49,5 +49,5 @@ public class CustomerDAOImpl extends JdbcDaoSupport implements CustomerDAO {
 			return list.get(0);
 		}
 	}
-
+	
 }
