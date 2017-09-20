@@ -7,9 +7,9 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.yinzifan.liandisys._0918_spring03_JDBCDemo.bean.Customer;
-import com.yinzifan.liandisys._0920_Spring06_SpringJdbcTemplateBatchUpdate.InsertBatch;
-import com.yinzifan.liandisys._0920_Spring06_SpringJdbcTemplateBatchUpdate.QueryBiz;
+import com.yinzifan.liandisys._0918_SpringJDBC03_JDBCDemo.bean.Customer;
+import com.yinzifan.liandisys._0920_SpringJDBC06_SpringJdbcTemplateBatchUpdate.InsertBatch;
+import com.yinzifan.liandisys._0920_SpringJDBC06_SpringJdbcTemplateBatchUpdate.QueryBiz;
 
 /**
  * @author yinzf2

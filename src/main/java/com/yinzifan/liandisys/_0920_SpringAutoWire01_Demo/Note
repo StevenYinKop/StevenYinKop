@@ -1,0 +1,42 @@
+|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+|no – 缺省情况下，自动配置是通过“ref”属性手动设定
+|byName – 根据属性名称自动装配。如果一个bean的名称和其他bean属性的名称是一样的，将会自装配它。
+|byType – 按数据类型自动装配。如果一个bean的数据类型是用其它bean属性的数据类型，兼容并自动装配它。
+|constructor – 在构造函数参数的byType方式。
+|autodetect – 如果找到默认的构造函数，使用“自动装配用构造”; 否则，使用“按类型自动装配”。
+|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+|1. Auto-Wiring ‘no’
+|
+|这是默认的模式，你需要通过 'ref' 属性来连接 bean。
+|    <bean id="customer" class="com.yiibai.common.Customer">
+|        <property name="person" ref="person" />
+|    </bean>
+|
+|    <bean id="person" class="com.yiibai.common.Person" />
+|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+|2. Auto-Wiring ‘byName’
+|
+|按属性名称自动装配。在这种情况下，由于对“person” bean的名称是相同于“customer” bean 的属性(“person”)名称，
+|所以，Spring会自动通过setter方法将其装配 – “setPerson(Person person)“.
+|
+|    <bean id="customer" class="com.yiibai.common.Customer" autowire="byName" /> 
+|    <bean id="person" class="com.yiibai.common.Person" />
+|
+|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+|3. Auto-Wiring ‘byType’
+|
+|通过按属性的数据类型自动装配Bean。在这种情况下，由于“Person” bean中的数据类型是与“customer” bean的属性(Person对象)的数据类型一样的，
+|所以，Spring会自动通过setter方法将其自动装配。– “setPerson(Person person)“.
+|
+|    <bean id="customer" class="com.yiibai.common.Customer" autowire="byType" />
+|    <bean id="person" class="com.yiibai.common.Person" />
+|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+|
+|4. Auto-Wiring ‘constructor’
+|
+|通过构造函数参数的数据类型按属性自动装配Bean。在这种情况下，由于“person” bean的数据类型与“customer” bean的属性(Person对象)的构造函数参数的数据类型是一样的，
+|所以，Spring通过构造方法自动装配 – “public Customer(Person person)“.
+|
+|    <bean id="customer" class="com.yiibai.common.Customer" autowire="constructor" />
+|    <bean id="person" class="com.yiibai.common.Person" />
+|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

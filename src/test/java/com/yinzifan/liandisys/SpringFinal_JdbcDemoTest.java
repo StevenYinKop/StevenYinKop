@@ -8,8 +8,8 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.yinzifan.liandisys._0920_SpringFinal_JdbcDemo.bean.Department;
-import com.yinzifan.liandisys._0920_SpringFinal_JdbcDemo.dao.DepartmentDAO;
+import com.yinzifan.liandisys._0920_SpringJDBCFinal_JdbcDemo.bean.Department;
+import com.yinzifan.liandisys._0920_SpringJDBCFinal_JdbcDemo.dao.DepartmentDAO;
 
 /**
  * @author yinzf2

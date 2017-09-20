@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- 通常情况下，明确地装配 bean： -->
+	<!-- <bean id="person" -->
+	<!-- class="com.yinzifan.liandisys._0920_SpringAutoWire01_Demo.bean.Person"> -->
+	<!-- <property name="ability" ref="invisible" /> -->
+	<!-- </bean> -->
+	<!-- <bean id="invisible" -->
+	<!-- class="com.yinzifan.liandisys._0920_SpringAutoWire01_Demo.bean.Ability"> -->
+	<!-- <property name="skill" value="Invisible" /> -->
+	<!-- </bean> -->
+	<bean id="person"
+		class="com.yinzifan.liandisys._0920_SpringAutoWire01_Demo.bean.Person"
+		autowire="byType">
+		<!-- 在类型的自动装配模式，就必须确保只有Bean 只有一个唯一的数据类型声明。 -->
+	</bean>
+	<bean id="invisible"
+		class="com.yinzifan.liandisys._0920_SpringAutoWire01_Demo.bean.Ability">
+		<property name="skill" value="Invisible" />
+	</bean>
+</beans>

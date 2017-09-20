@@ -4,7 +4,7 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.yinzifan.liandisys._0918_spring03_JDBCDemo.dao.CustomerDAO;
+import com.yinzifan.liandisys._0918_SpringJDBC03_JDBCDemo.dao.CustomerDAO;
 
 /**
  * @author yinzf2
