@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="developer"
+		class="com.yinzifan.liandisys._0921_SpringAutoWire03constructor_Demo.bean.Developer" autowire="constructor">
+	<!-- 原始注入方法 : -->
+	<!-- <constructor-arg> -->
+	<!-- <ref bean="language" /> -->
+	<!-- </constructor-arg> -->
+	</bean>
+	<bean id="language"
+		class="com.yinzifan.liandisys._0921_SpringAutoWire03constructor_Demo.bean.Language">
+		<property name="name" value="java"></property>
+	</bean>
+</beans>

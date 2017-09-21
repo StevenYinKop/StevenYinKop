@@ -1,4 +1,4 @@
-package com.yinzifan.liandisys._0920_SpringAutoWire01_Demo.bean;
+package com.yinzifan.liandisys._0920_SpringAutoWire01ByType_Demo.bean;
 
 /**
  * @author yinzf2

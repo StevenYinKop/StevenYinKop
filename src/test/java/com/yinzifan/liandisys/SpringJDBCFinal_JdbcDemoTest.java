@@ -15,7 +15,7 @@ import com.yinzifan.liandisys._0920_SpringJDBCFinal_JdbcDemo.dao.DepartmentDAO;
  * @author yinzf2
  * 2017/09/20	14:57:59
  */
-public class SpringFinal_JdbcDemoTest {
+public class SpringJDBCFinal_JdbcDemoTest {
 	@Test
 	public void testJdbcDemo() throws Exception {
 		ApplicationContext ac = new ClassPathXmlApplicationContext("_0920_springfinal_ApplicationContext.xml");

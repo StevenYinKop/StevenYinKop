@@ -12,12 +12,12 @@
 	<!-- <property name="skill" value="Invisible" /> -->
 	<!-- </bean> -->
 	<bean id="person"
-		class="com.yinzifan.liandisys._0920_SpringAutoWire01_Demo.bean.Person"
+		class="com.yinzifan.liandisys._0920_SpringAutoWire01ByType_Demo.bean.Person"
 		autowire="byType">
 		<!-- 在类型的自动装配模式，就必须确保只有Bean 只有一个唯一的数据类型声明。 -->
 	</bean>
 	<bean id="invisible"
-		class="com.yinzifan.liandisys._0920_SpringAutoWire01_Demo.bean.Ability">
+		class="com.yinzifan.liandisys._0920_SpringAutoWire01ByType_Demo.bean.Ability">
 		<property name="skill" value="Invisible" />
 	</bean>
 </beans>

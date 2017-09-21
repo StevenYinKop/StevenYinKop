@@ -15,7 +15,7 @@ import com.yinzifan.liandisys._0920_SpringJDBC06_SpringJdbcTemplateBatchUpdate.Q
  * @author yinzf2
  * 2017/09/20	13:06:22
  */
-public class Spring06JDBCTemplateInsertBatchTest {
+public class SpringJDBC06JDBCTemplateInsertBatchTest {
 	@Test
 	public void testInsertBatch() throws Exception {
 		ApplicationContext ac = new ClassPathXmlApplicationContext("_0920_spring06_ApplicationContext.xml");
