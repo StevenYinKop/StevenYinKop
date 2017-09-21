@@ -10,7 +10,7 @@ import com.yinzifan.liandisys._0921_SpringAutoWire05AutoWireAnno_Demo.bean.Custo
  * @author yinzf2
  * 2017/09/21	16:56:10
  */
-public class SpringAutoWired05AutoWireAnnoTest {
+public class _02_SpringAutoWired05AutoWireAnnoTest {
 	@Test
 	public void testSpringAutoWired05AutoWireAnno() throws Exception {
 		ApplicationContext ac = new ClassPathXmlApplicationContext(

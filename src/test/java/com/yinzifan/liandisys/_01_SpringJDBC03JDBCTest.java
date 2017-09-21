@@ -11,7 +11,7 @@ import com.yinzifan.liandisys._0918_SpringJDBC03_JDBCDemo.dao.CustomerDAO;
  * @author yinzf2
  * 2017/09/18	15:04:08
  */
-public class SpringJDBC03JDBCTest {
+public class _01_SpringJDBC03JDBCTest {
 	@Test
 	public void testJDBC() throws Exception {
 		ApplicationContext context = new ClassPathXmlApplicationContext("_0918_spring03_ApplicationContext.xml");

@@ -10,7 +10,7 @@ import com.yinzifan.liandisys._0921_SpringAutoWire03constructor_Demo.bean.Develo
  * @author yinzf2
  * 2017/09/21	9:28:05
  */
-public class SpringAutoWired03constructorTest {
+public class _02_SpringAutoWired03constructorTest {
 	@Test
 	public void testSpringAutoWired03constructor() throws Exception {
 		ApplicationContext ac = new ClassPathXmlApplicationContext(

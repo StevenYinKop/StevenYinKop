@@ -12,7 +12,7 @@ import com.yinzifan.liandisys._0921_SpringAutoWire02ByName_Demo.bean.Customer;
  * @author yinzf2
  * 2017/09/21	9:19:04
  */
-public class SpringAutoWired02ByNameTest {
+public class _02_SpringAutoWired02ByNameTest {
 	@Test
 	public void testSpringAutoWired02ByName() throws Exception {
 		ApplicationContext ac = new ClassPathXmlApplicationContext(
