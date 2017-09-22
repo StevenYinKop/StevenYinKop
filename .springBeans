@@ -12,6 +12,8 @@
 		<config>src/test/resources/_0921_SpringAutoWire02ByName_ApplicationContext.xml</config>
 		<config>src/test/resources/_0921_SpringAutoWire04AutoDetect_ApplicationContext.xml</config>
 		<config>src/test/resources/_0922_SpringDi01Setter_ApplicationContext.xml</config>
+		<config>src/test/resources/_0922_SpringBean01_ApplicationContext.xml</config>
+		<config>src/test/resources/_0922_SpringBean03_ApplicationContext.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>

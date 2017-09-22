@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="fileNameGenerator1"
+		class="com.yinzifan.liandisys._0922_SpringBean01_Demo.FileNameGenerator">
+		<property name="name">
+			<value>yinzifan1</value>
+		</property>
+		<property name="type">
+			<value>person1</value>
+		</property>
+	</bean>
+
+	<bean id="fileNameGenerator2"
+		class="com.yinzifan.liandisys._0922_SpringBean01_Demo.FileNameGenerator">
+		<property name="name" value="yinzifan2" />
+		<property name="type" value="person2" />
+	</bean>
+
+	<bean id="fileNameGenerator3"
+		class="com.yinzifan.liandisys._0922_SpringBean01_Demo.FileNameGenerator"
+		p:name="yinzifan3" p:type="person3" />
+</beans>

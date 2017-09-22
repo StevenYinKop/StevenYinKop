@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="Customer"
+		class="com.yinzifan.liandisys._0922_SpringBean05ListFactoryBean_Demo.bean.Customer">
+		<property name="list">
+			<list>
+				<value type="java.lang.String">yinzifan</value>
+				<value type="int">2</value>
+			</list>
+
+		</property>
+	</bean>
+
+</beans>

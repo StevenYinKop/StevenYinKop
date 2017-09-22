@@ -1,4 +1,9 @@
 package com.yinzifan.liandisys._0915_mvc;
+
+import com.yinzifan.liandisys._0915_mvc.bean.Student;
+import com.yinzifan.liandisys._0915_mvc.biz.StudentController;
+import com.yinzifan.liandisys._0915_mvc.view.StudentView;
+
 public class MVCPatternDemo {
 	public static void main(String[] args) {
 		// fetch student record based on his roll no from the database

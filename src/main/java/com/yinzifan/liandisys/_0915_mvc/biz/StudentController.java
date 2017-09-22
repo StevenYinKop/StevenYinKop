@@ -1,4 +1,7 @@
-package com.yinzifan.liandisys._0915_mvc;
+package com.yinzifan.liandisys._0915_mvc.biz;
+
+import com.yinzifan.liandisys._0915_mvc.bean.Student;
+import com.yinzifan.liandisys._0915_mvc.view.StudentView;
 
 public class StudentController {
 	private Student model;

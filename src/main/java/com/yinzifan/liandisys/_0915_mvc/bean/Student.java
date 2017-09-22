@@ -1,4 +1,4 @@
-package com.yinzifan.liandisys._0915_mvc;
+package com.yinzifan.liandisys._0915_mvc.bean;
 
 public class Student {
 	private String  rollNo;
@@ -19,5 +19,4 @@ public class Student {
 	public String toString() {
 		return "Student [rollNo=" + rollNo + ", name=" + name + "]";
 	}
-	
 }

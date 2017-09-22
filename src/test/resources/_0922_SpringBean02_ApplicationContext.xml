@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- 使用ref注入 -->
+	<bean id="customer1"
+		class="com.yinzifan.liandisys._0922_SpringBean02_Demo.bean.Customer">
+		<property name="person" ref="person1"></property>
+	</bean>
+	<bean id="person1"
+		class="com.yinzifan.liandisys._0922_SpringBean02_Demo.bean.Person">
+		<property name="name" value="yinzifan1" />
+		<property name="age" value="221" />
+		<property name="address" value="nj1" />
+	</bean>
+	<!-- 使用内部bean注入 -->
+	<bean id="customer2"
+		class="com.yinzifan.liandisys._0922_SpringBean02_Demo.bean.Customer">
+		<property name="person">
+			<bean id="person2"
+				class="com.yinzifan.liandisys._0922_SpringBean02_Demo.bean.Person">
+				<property name="name" value="yinzifan2" />
+				<property name="age" value="222" />
+				<property name="address" value="nj2" />
+			</bean>
+		</property>
+	</bean>
+	<!-- 使用有參構造 -->
+	<bean id="customer3"
+		class="com.yinzifan.liandisys._0922_SpringBean02_Demo.bean.Customer">
+		<constructor-arg>
+			<bean id="person3"
+				class="com.yinzifan.liandisys._0922_SpringBean02_Demo.bean.Person">
+				<property name="name" value="yinzifan3" />
+				<property name="age" value="223" />
+				<property name="address" value="nj3" />
+			</bean>
+		</constructor-arg>
+	</bean>
+</beans>
