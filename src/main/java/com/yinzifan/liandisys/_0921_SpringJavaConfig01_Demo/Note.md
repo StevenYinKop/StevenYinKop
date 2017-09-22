@@ -35,7 +35,7 @@
     }
 ## 4. JavaConfig 注解
 
-###使用 @Configuration 注释告诉 Spring，这是核心的 Spring 配置文件，并通过 @Bean 定义 bean。
+### 使用 @Configuration 注释告诉 Spring，这是核心的 Spring 配置文件，并通过 @Bean 定义 bean。
 
     @Configuration
     public class AppConfig {
