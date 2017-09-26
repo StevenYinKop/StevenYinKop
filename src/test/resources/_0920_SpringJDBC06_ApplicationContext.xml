@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
-	<import resource="dataSourceConfig.xml" />
+	<import resource="dataSourceConfig2.xml" />
 	<bean id="InsertBatch"
-		class="com.yinzifan.liandisys._0920_Spring06_SpringJdbcTemplateBatchUpdate.InsertBatch">
+		class="com.yinzifan.liandisys._0920_SpringJDBC06_SpringJdbcTemplateBatchUpdate.InsertBatch">
 		<property name="dataSource" ref="dataSource" />
 	</bean>
-	<bean id="QueryBiz"
-		class="com.yinzifan.liandisys._0920_Spring06_SpringJdbcTemplateBatchUpdate.QueryBiz">
-		<property name="dataSource" ref="dataSource" />
-	</bean>
+<!-- 	<bean id="QueryBiz" -->
+<!-- 		class="com.yinzifan.liandisys._0920_Spring06_SpringJdbcTemplateBatchUpdate.QueryBiz"> -->
+<!-- 		<property name="dataSource" ref="dataSource" /> -->
+<!-- 	</bean> -->
 </beans>

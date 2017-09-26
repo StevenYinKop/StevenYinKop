@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/util
+    http://www.springframework.org/schema/util/spring-util-2.5.xsd http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 	<bean id="Customer"
-		class="com.yinzifan.liandisys._0922_SpringBean05ListFactoryBean_Demo.bean.Customer">
+		class="com.yinzifan.liandisys._0922_SpringBean05FactoryBean_Demo.bean.Customer">
 		<property name="list">
-			<list>
-				<value type="java.lang.String">yinzifan</value>
-				<value type="int">2</value>
-			</list>
-
+			<!-- <list> -->
+			<!-- <value type="java.lang.String">yinzifan</value> -->
+			<!-- <value type="int">2</value> -->
+			<!-- </list> -->
+			<util:list list-class="java.util.ArrayList">
+				<value>one</value>
+				<value>2</value>
+				<value>three</value>
+			</util:list>
+		</property>
+		<property name="set">
+			<util:set set-class="java.util.HashSet">
+				<value>1</value>
+				<value>2</value>
+				<value>3</value>
+			</util:set>
+		</property>
+		<property name="map">
+			<util:map key-type="java.lang.String" value-type="java.lang.Object">
+				<entry key="yinzifan" value="1" />
+			</util:map>
 		</property>
 	</bean>
-
 </beans>
