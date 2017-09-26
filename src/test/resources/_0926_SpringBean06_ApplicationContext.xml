@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="dateFormat" class="java.text.SimpleDateFormat">
+		<constructor-arg value="yyyy-MM-dd" />
+	</bean>
+	<bean id="customer"
+		class="com.yinzifan.liandisys._0926_SpringBean06CustomDateEditor_Demo.Customer">
+		<property name="date">
+			<bean factory-bean="dateFormat" factory-method="parse">
+				<constructor-arg value="1970-01-01" />
+			</bean>
+		</property>
+	</bean>
+	<!-- <bean id="customer" class="com.yiibai.common.Customer"> <property name="date"> 
+		<bean factory-bean="dateFormat" factory-method="parse"> <constructor-arg 
+		value="2015-12-31" /> </bean> </property> </bean> -->
+</beans>

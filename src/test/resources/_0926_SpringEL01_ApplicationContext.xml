@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-2.5.xsd"
+	xmlns:context="http://www.springframework.org/schema/context">
+	<!-- EL第一種使用方式:在配置文件中引用其他bean的屬性 -->
+	<!-- <bean id="itemBean" class="com.yinzifan.liandisys._0926_SpringEL01_Hello_Demo.bean.Item"> -->
+	<!-- <property name="name" value="itemA" /> -->
+	<!-- <property name="qty" value="10" /> -->
+	<!-- </bean> -->
+	<!-- <bean id="customerBean" -->
+	<!-- class="com.yinzifan.liandisys._0926_SpringEL01_Hello_Demo.bean.Customer"> -->
+	<!-- <property name="item" value="#{itemBean}" /> -->
+	<!-- <property name="itemName" value="#{itemBean.name}" /> -->
+	<!-- </bean> -->
+
+
+	<!-- EL第二種使用方式:通過註解的方式引用其他bean的屬性,同時在配置文件中增加包掃描 -->
+	<context:component-scan
+		base-package="com.yinzifan.liandisys._0926_SpringEL01_Hello_Demo.bean"></context:component-scan>
+</beans>

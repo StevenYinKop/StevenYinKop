@@ -14,6 +14,8 @@
 		<config>src/test/resources/_0922_SpringDi01Setter_ApplicationContext.xml</config>
 		<config>src/test/resources/_0922_SpringBean01_ApplicationContext.xml</config>
 		<config>src/test/resources/_0922_SpringBean03_ApplicationContext.xml</config>
+		<config>src/test/resources/_0926_SpringBean06_ApplicationContext.xml</config>
+		<config>src/test/resources/_0926_SpringBean07_ApplicationContext.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
