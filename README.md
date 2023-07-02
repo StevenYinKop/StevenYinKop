@@ -1,6 +1,6 @@
 ## About me
 
-- 尹子凡 Steven@BATW Nanjing
+- 尹子凡 Steven@BATW Nanjing 👉 [more info](https://stevencv.koaven0420.com/) (not a phishing link👻)...
 - 💻DevOps & Scrum Master
 - [yinzifancn@gmail.com](mailto:yinzifancn@gmail.com)
 - Liverpool Fan **YNWA🔴⚽️**
