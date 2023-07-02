@@ -1,22 +1,12 @@
-尹子凡 Steven
-@BATW Nanjing
-yinzifancn@gmail.com
-DevOps & Scrum Master
+### 尹子凡 Steven
+### **@BATW Nanjing**
+### [yinzifancn@gmail.com](mailto:yinzifancn@gmail.com)
+### DevOps & Scrum Master
+### **Chinese🇨🇳/English🇬🇧/Japanese🇯🇵(N2)/Esperanto💚**
 
-Java/React/Vue/Python/Kotlin/Linux/AWS/Terraform
-Chinese/English/Japanese/Esperanto/German
+<img align="center" src="https://skillicons.dev/icons?i=java,maven,gradle,idea,kotlin,eclipse,spring,jenkins,py,js,ts,jquery,react,vue,nextjs,nginx,mysql,postgres,redis,mongodb,aws,docker,git,linux,&theme=light&perline=8" />
 
-Angular/Dart Newbee
+![image](https://github.com/CinCommon/CinCommon/assets/20436656/758b6dec-9d22-45c0-9f5e-8afd569ab23b)
 
-Liverpool Fan
-YNWA🔴
-
-![Liverpool](https://github.com/CinCommon/CinCommon/blob/master/Liverpool_logo.png?raw=true)
-
-博客主要内容:
-
-● Java,Web等技术分享
-● 学习时做的笔记(编程,日语...)
-● 搬运,翻译高质量文档
-
-其他社交媒体在下面的小图标~👇
+## Liverpool Fan
+### **YNWA🔴**
