@@ -1,9 +1,13 @@
 ## About me
 
 - 尹子凡 Steven@**BATW Nanjing** 👉 [More Info](https://stevencv.koaven0420.com/) (not a phishing link👻)...
-- 💻DevOps & 🎯Scrum Master
 - 💁‍♂️[yinzifancn@gmail.com](mailto:yinzifancn@gmail.com)
+- 💻A DevOps and 🎯Scrum Master with expertise in a range of technologies, including Java, React&Nextjs, Vue, Node.js, Python, Kotlin, Groovy.
+- ☁️Ops skills: AWS, Jenkins, Terraform, Docker, Linux, Nginx.
+- 👨🏻‍💻Database skills: MySQL, MongoDB, Redis.
+- 🎯Familiar with Scrum Methodology.
 - ⚽️Liverpool Fan **YNWA🔴**
+- 📓🏋🏻‍♀️🚘☕️ Enjoy reading books, working out, getting tattoos, driving, and sampling various types of coffee.
 
 ## Skills:
 <img align="center" src="https://skillicons.dev/icons?i=java,maven,gradle,idea,kotlin,eclipse,spring,jenkins,py,js,ts,jquery,react,vue,nextjs,nginx,mysql,postgres,redis,mongodb,aws,docker,git,linux,&theme=light&perline=8" />
