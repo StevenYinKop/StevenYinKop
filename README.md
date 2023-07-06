@@ -11,7 +11,7 @@
 
 ## Skills:
 <img align="center" src="https://skillicons.dev/icons?i=java,maven,gradle,idea,kotlin,eclipse,spring,jenkins,py,js,ts,jquery,react,vue,nextjs,nginx,mysql,postgres,redis,mongodb,aws,docker,git,linux,&theme=light&perline=8" />
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cincommon&layout=compact&langs_count=7&theme=github_dark" />
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cincommon&layout=pie&langs_count=10&theme=transparent" />
 
 ## Languages:
 - Chinese🇨🇳(Native)
