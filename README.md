@@ -10,7 +10,14 @@
 - 📓🏋🏻‍♀️🚘☕️ Enjoy reading books, working out, getting tattoos, driving, and sampling various types of coffee.
 
 ## Skills:
+<p align="center">
 <img align="center" src="https://skillicons.dev/icons?i=java,maven,gradle,idea,kotlin,eclipse,spring,jenkins,py,js,ts,jquery,react,vue,nextjs,nginx,mysql,postgres,redis,mongodb,aws,docker,git,linux,&theme=light&perline=8" />
+</p>
+<p align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" width="40" height="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/groovy/groovy-original.svg" width="40" height="40"/>
+</p>
+
 <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cincommon&layout=pie&langs_count=10&theme=transparent" />
 
 ## Languages:
