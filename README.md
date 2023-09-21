@@ -1,6 +1,6 @@
 ## About me
 
-- 尹子凡 Steven@**BATW Nanjing** 👉 [More Info](https://stevencv.koaven0420.com/) (not a phishing link👻)...
+- 尹子凡 Steven@**BATW Nanjing** 👉 [Blog](https://github.com/StevenYinKop/Programatipoj-Plurlingva-Lernanto) 👨🏻‍💻 [More Info](https://stevencv.koaven0420.com/) (not a phishing link👻)...
 - 💁‍♂️[yinzifancn@gmail.com](mailto:yinzifancn@gmail.com)
 - 💻A DevOps and 🎯Scrum Master with expertise in a range of technologies, including Java, React&Nextjs, Vue, Node.js, Python, Kotlin, Groovy.
 - ☁️Ops skills: AWS, Jenkins, Terraform, Docker, Linux, Nginx.
